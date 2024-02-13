@@ -1,0 +1,99 @@
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--cream);
+    text-align: left;
+   color: var(--dark-grayish-blue);
+}
+
+.container{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    border-radius: 20px;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.moi{
+    letter-spacing: 4px;
+    font-size: small;
+    font-weight: bold;
+}
+
+img{
+    height: 450px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.details{
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    background-color: white;
+    height: 450px;
+    width: 243px;
+    padding-left: 40px;
+    padding-right: 35px;
+    background-color: var(--white);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.head1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+color: var(--very-dark-blue);
+
+}
+
+/* .head2{
+color: ;
+} */
+
+.price{
+    display: flex;
+    text-align: center;
+}
+
+button{
+margin: 10px;
+margin-left: 10px;
+
+}
+
+.old-price{
+    margin-left: 20px;
+    text-decoration: line-through;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.new-price{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--dark-cyan);
+    margin-top: 15px;
+}
+
+.add-to-cart-btn {
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    border: none;
+    height: 45px;
+    padding: 10px 20px;
+    margin: 35px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    text-align: center;
+    font-size: 15px;
+}
+
